@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{961964C8-B4A2-4FF1-94E1-92F72F3D9D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopWeb", "OnlineShop\OnlineShopWeb.csproj", "{961964C8-B4A2-4FF1-94E1-92F72F3D9D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopAPI", "OnlineShopAPI\OnlineShopAPI.csproj", "{DBDCDD19-D57B-4789-B6EF-D188AE761D97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopAPI", "OnlineShopAPI\OnlineShopAPI.csproj", "{DBDCDD19-D57B-4789-B6EF-D188AE761D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopModels", "OnlineShopModels\OnlineShopModels.csproj", "{EC8DFE3B-0832-4319-8164-DC5AAF50CCD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopModels", "OnlineShopModels\OnlineShopModels.csproj", "{EC8DFE3B-0832-4319-8164-DC5AAF50CCD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
