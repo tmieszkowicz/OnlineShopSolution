@@ -18,6 +18,7 @@ namespace OnlineShopAPI.Extensions
                         Name = product.Name,
                         Description = product.Description,
                         ImageURL = product.ImageURL,
+                        Price = product.Price,
                         Qty = product.Qty,
                         CategoryId = product.CategoryId,
                         CategoryName = ProductCategory.Name
