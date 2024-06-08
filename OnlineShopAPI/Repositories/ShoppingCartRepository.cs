@@ -44,13 +44,22 @@ namespace OnlineShopAPI.Repositories
 			return null;
 		}
 
-		public Task<CartItem> DeleteItem(int id)
+		public async Task<CartItem> DeleteItem(int id)
 		{
-			throw new NotImplementedException();
+			var item = await this.onlineShopDbContext.CartItems.FindAsync(id);
+
+			if (item != null)
+			{
+				this.onlineShopDbContext.CartItems.Remove(item); 
+				await this.onlineShopDbContext.SaveChangesAsync();
+			}
+
+			return item;
 		}
 
 		public async Task<CartItem> GetItem(int id)
 		{
+
 			return await (from cart in this.onlineShopDbContext.Carts
 						  join cartItem in this.onlineShopDbContext.CartItems
 						  on cart.Id equals cartItem.CartId
