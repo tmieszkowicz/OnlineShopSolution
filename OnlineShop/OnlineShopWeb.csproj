@@ -20,4 +20,12 @@
     <ProjectReference Include="..\OnlineShopModels\OnlineShopModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Layout\CartMenu.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Layout\CartMenu.razor" />
+  </ItemGroup>
+
 </Project>
